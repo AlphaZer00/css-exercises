@@ -5,6 +5,7 @@
 
 .container {
   text-align: center;
+  height: 100vh;
 }
 
 .container div {
@@ -92,7 +93,7 @@
 
 .container {
   display: grid;
-  grid-template-rows: min(1fr, fit-content) 1fr 5fr 1fr;
+  grid-template-rows: 1fr 1fr 5fr 1fr;
   grid-template-columns: 1fr 4fr;
 }
 
